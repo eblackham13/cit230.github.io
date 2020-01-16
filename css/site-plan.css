@@ -5,12 +5,12 @@
     --secondary-color: #F2D868;
     --accent1-color: #495867;
     --accent2-color: #3396CC;
-    --heading-font: "IM Fell French Canon SC";
-    --paragraph-font: Lato, Helvetica, sans-serif
+    --heading-font: "Book Antiqua";
+    --paragraph-font: "Times New Roman";
 }
 
 html {
-    background-color: var(--primary-color)
+    background-color: <color: #495867>
 }
 
 body {
