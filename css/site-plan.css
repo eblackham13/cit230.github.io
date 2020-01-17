@@ -17,7 +17,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   background-color: var(--primary-color);
-  padding: 1em;
+  padding: 2em;
 }
 
 img {
@@ -59,7 +59,7 @@ p {
 }
 
 .colors th {
-  background-color: #999;
+  background-color: #CDD3D5;
 }
 
 .colors td {
