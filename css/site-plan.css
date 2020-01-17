@@ -1,23 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Montserrat:500&display=swap');
 
 :root {
     --primary-color: #664D36;
     --secondary-color: #F2D868;
     --accent1-color: #495867;
     --accent2-color: #3396CC;
-    --heading-font: "Book Antiqua";
-    --paragraph-font: "Times New Roman";
+    --heading-font: "Libre Caslon Text', serif";
+    --paragraph-font: "'Montserrat', sans-serif;";
 }
 
 html {
-    background-color: <color: #495867>
+    background-color: var(--primary-color)
 }
 
 body {
     max-width: 900px;
     margin: 0 auto;
-    background-color: white;
-    padding: 1em
+    background-color: var(--accent2-color)
+    padding: 1em;
 }
 
 img {
