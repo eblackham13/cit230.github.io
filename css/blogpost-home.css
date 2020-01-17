@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Montserrat:500&display=swap');
+
+:root {
+    --primary-color: #FFEDDF;
+    --secondary-color: #86615C;
+    --accent1-color: #EDC350;
+    --accent2-color: #AFE0CE;
+    --heading-font: "'Libre Caslon Text', serif";
+    --paragraph-font: "'Montserrat', sans-serif";
+  }
+
+  html {
+      background-color: var(--accent2-color);
+  }
+
+  body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--accent2-color);
+    padding: 1em;
+  }
