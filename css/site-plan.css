@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Montserrat:500&display=swap');
 
 :root {
-    --primary-color: #664D36;
-    --secondary-color: #F2D868;
-    --accent1-color: #495867;
-    --accent2-color: #3396CC;
-    --heading-font: "Libre Caslon Text', serif";
-    --paragraph-font: "'Montserrat', sans-serif;";
+  --primary-color: #CDD3D5;
+  --secondary-color: #495867;
+  --accent1-color: #664D36;
+  --accent2-color: #F2D868;
+  --heading-font: "'Libre Caslon Text', serif";
+  --paragraph-font: "'Montserrat', sans-serif";
 }
 
 html {
-    background-color: var(--primary-color)
+  background-color: var(--primary-color);
 }
 
 body {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: var(--accent2-color)
-    padding: 1em;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
 }
 
 img {
-    max-width: 100%
+  max-width: 100%;
 }
 
 h1,
@@ -30,82 +30,82 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--heading-font);
-    color:
+  font-family: var(--heading-font);
+  color: ;
 }
 
 header {
-    padding: 1em;
-    text-align: center;
-    color: var(--accent2-color);
-    background-color:
+  padding: 1em;
+  text-align: center;
+  color: var(--accent2-color);
+  background-color: ;
 }
 
-header>h1 {
-    color:
+header > h1 {
+  color: ;
 }
 
 p {
-    font-family: var(--paragraph-font);
-    color: <color: #664D36>
-    padding: 1em
+  font-family: var(--paragraph-font);
+  color: ;
+  padding: 1em;
 }
 
 .colors {
-    width: 100%;
-    min-width: 350px;
-    margin: auto;
-    text-align: center
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
 }
 
 .colors th {
-    background-color: #999
+  background-color: #999;
 }
 
 .colors td {
-    width: 25%;
-    height: 3em
+  width: 25%;
+  height: 3em;
 }
 
 .primary {
-    background-color: var(--primary-color)
+  background-color: var(--primary-color);
 }
 
 .secondary {
-    background-color: var(--secondary-color)
+  background-color: var(--secondary-color);
 }
 
 .accent1 {
-    background-color: var(--accent1-color)
+  background-color: var(--accent1-color);
 }
 
 .accent2 {
-    background-color: var(--accent2-color)
+  background-color: var(--accent2-color);
 }
 
 nav {
-    background-color: ;
-    line-height: 3em;
-    text-align: center;
-    font-size: 1.2em
+  background-color: ;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
 }
 
-nav>ul {
-    list-style-type: none;
-    display: flex
+nav > ul {
+  list-style-type: none;
+  display: flex;
 }
 
 nav a {
-    padding: 1em;
-    min-width: 70px
+  padding: 1em;
+  min-width: 70px;
 }
 
 nav a:link,
 nav a:visited {
-    color:
+  color: ;
 }
 
 nav a:hover {
-    color: ;
-    background-color:
+  color: ;
+  background-color: ;
 }
