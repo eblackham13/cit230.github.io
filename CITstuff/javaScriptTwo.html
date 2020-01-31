@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
@@ -17,8 +17,11 @@
 
             //Use string concatenation to create a verse
             //of scripture personalized for the user.
-            let scripture = "And there came a voice unto me, sayging: " + name +
+            let scripture = "And there came a voice unto me, saying: " + name +
                 ", thy sins are forgiven thee, " + "and thou shalt be blessed."
+
+            //Display the scripture in the div that has the id "outputDiv".
+            document.getElementById('outputDiv').innerHTML = scripture;
         }
     </script>
 </head>
