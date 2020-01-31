@@ -1,36 +1,28 @@
-.root{
-    --color1:#444951;
-    --color2:#795446;
-    --color3:#94914E;
-    --color4:#7D7660;
-    --color5:#E2D6B1;
-}
-
-body{
-    background-color: #E2D6B1;
+body {
+  background-color: #e2d6b1;
 }
 h1 {
-    color:#795446;
+  color: #795446;
 }
-h2{
-    color:#444951;
+h2 {
+  color: #444951;
 }
 
-ul{
-    color:#795446;
-    font-weight: bold;
+ul {
+  color: #795446;
+  font-weight: bold;
 }
-a{
-    color:#94914E;
-    text-decoration: none;
+a {
+  color: #94914e;
+  text-decoration: none;
 }
-a:hover{
-    color:#444951
+a:hover {
+  color: #444951;
 }
-footer{
-    color:#795446;
-    font-weight: bold;
+footer {
+  color: #795446;
+  font-weight: bold;
 }
-footer a{
-    color:#444951
+footer a {
+  color: #444951;
 }
