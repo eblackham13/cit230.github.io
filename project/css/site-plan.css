@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Montserrat:500&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Oswald:300|Roboto+Condensed&display=swap");
 :root {
-  --primary-color: #CDD3D5;
-  --secondary-color: #495867;
-  --accent1-color: #664D36;
-  --accent2-color: #F2D868;
-  --heading-font: "'Libre Caslon Text', serif";
-  --paragraph-font: "'Montserrat', sans-serif";
+  --primary-color: #C8CBC0;
+  --secondary-color: #334E3B;
+  --accent1-color: #072F37;
+  --accent2-color: #BD7523;
+  --accent3-color: #65806D;
+  --heading-font: "Roboto Condensed", sans-serif;
+  --paragraph-font: "Oswald", sans-serif;
 }
 
 html {
@@ -38,16 +38,16 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--accent2-color);
-  background-color: var(--accent1-color) ;
+  background-color: var(--accent1-color);
 }
 
 header > h1 {
-  color: var(--accent2-color) ;
+  color: var(--accent2-color);
 }
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--secondary-color) ;
+  color: var(--secondary-color);
   padding: 1em;
 }
 
@@ -59,7 +59,7 @@ p {
 }
 
 .colors th {
-  background-color: #CDD3D5;
+  background-color: #cdd3d5;
 }
 
 .colors td {
@@ -102,10 +102,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-  color: var(--accent2-color) ;
+  color: var(--accent2-color);
 }
 
 nav a:hover {
-  color: var(--secondary-color) ;
+  color: var(--secondary-color);
   background-color: var(--accent2-color);
 }

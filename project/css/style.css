@@ -1,0 +1,41 @@
+body {
+  background-color: #c8cbc0;
+  font-size: 16px;
+}
+
+header,
+nav,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+   background-color: #072F37 ; 
+   font-family: 'Roboto Condensed', sans-serif;
+   color: #BD7523;
+   border: 1px;
+   padding: 5px;
+   display: flex;
+}
+
+a {
+    color: #C8CBC0;
+    text-decoration: none
+}
+a:hover {
+    color: #BD7523
+}
+p{
+    background-color:#848F93;
+    color: #334E3B;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+
+}
+h2 {
+    color:#072F37;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
