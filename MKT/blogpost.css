@@ -10,4 +10,10 @@ p{
 ul{
     color:#FFFFFF
 }
-  
+a{
+    text-decoration: none;
+    color:#FE938C
+}
+a:hover{
+    color:#B6B9BA
+}
