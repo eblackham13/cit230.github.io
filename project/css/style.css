@@ -12,31 +12,63 @@ footer {
 }
 
 header {
-   background-color: #072F37 ; 
-   font-family: 'Roboto Condensed', sans-serif;
-   color: #BD7523;
-   border: 1px;
-   padding: 5px;
-   display: flex;
+  background-color: #072f37;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #bd7523;
+  border: 1px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
 }
-
+.heading h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.motto {
+  font-style: italic;
+  font-size: 1rem;
+  color: #c8cbc0;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  margin:1rem;
+  padding:1rem;
+  letter-spacing: 3px;
+  list-style: none;
+}
+.raftinglogo {
+  width: 300px;
+  height: auto;
+}
 a {
-    color: #C8CBC0;
-    text-decoration: none
+  color: #334e3b;
+  text-decoration: none;
+  font-weight: bold;
 }
 a:hover {
-    color: #BD7523
+  color: #bd7523;
 }
-p{
-    background-color:#848F93;
-    color: #334E3B;
-    display: flex;
-    font-family: 'Oswald', sans-serif;
-    padding: 10px;
-
+.raftingimage {
+  width: 900px;
+  height: auto;
+}
+.riverimage {
+  width: 300px;
+  height: auto;
+}
+p {
+  background-color: #072f37;
+  color: #c8cbc0;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
 }
 h2 {
-    color:#072F37;
-    font-family: 'Roboto Condensed', sans-serif;
+  color: #bd7523;
+  font-family: "Roboto Condensed", sans-serif;
 }
-
+.logo {
+  width: 40px;
+  height: auto;
+}
