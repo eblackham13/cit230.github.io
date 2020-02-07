@@ -65,6 +65,7 @@ a.menu{
   margin: 5px;
   width: 950px;
   height: auto;
+  padding: none;
 }
 .riverimage {
   float: right;
