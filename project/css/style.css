@@ -23,18 +23,23 @@ header {
 .heading h1 {
   font-size: 2rem;
   margin: 0;
+  border: 1rem;
 }
 .motto {
   font-style: italic;
   font-size: 1rem;
   color: #c8cbc0;
 }
+nav{
+  text-align: center;
+}
 nav ul{
   display: flex;
   flex-direction: row;
   margin:1rem;
   padding:1rem;
-  letter-spacing: 3px;
+  border:1rem;
+  letter-spacing: 2px;
   list-style: none;
 }
 .raftinglogo {
@@ -49,11 +54,26 @@ a {
 a:hover {
   color: #bd7523;
 }
+a.menu{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  padding-right: 2rem;
+  
+}
 .raftingimage {
   width: 900px;
   height: auto;
 }
 .riverimage {
+  float: right;
+  width: auto;
+  height: 300px;
+  padding-left: 2rem;
+}
+.waterfallimage {
+  padding-right: 2rem;
+  float: left;
   width: 300px;
   height: auto;
 }
@@ -62,8 +82,9 @@ p {
   color: #c8cbc0;
   display: flex;
   font-family: "Oswald", sans-serif;
-  padding: 10px;
+  padding: 15px;
 }
+
 h2 {
   color: #bd7523;
   font-family: "Roboto Condensed", sans-serif;
@@ -71,4 +92,8 @@ h2 {
 .logo {
   width: 40px;
   height: auto;
+}
+section {
+  margin: 1em;
+  padding: 2em;
 }
