@@ -62,7 +62,8 @@ a.menu{
   
 }
 .raftingimage {
-  width: 900px;
+  margin: 5px;
+  width: 950px;
   height: auto;
 }
 .riverimage {
@@ -74,8 +75,8 @@ a.menu{
 .waterfallimage {
   padding-right: 2rem;
   float: left;
-  width: 300px;
-  height: auto;
+  width: auto;
+  height: 300px;
 }
 p {
   background-color: #072f37;
