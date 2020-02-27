@@ -30,15 +30,15 @@ header {
   font-size: 1rem;
   color: #c8cbc0;
 }
-nav{
+nav {
   text-align: center;
 }
-nav ul{
+nav ul {
   display: flex;
   flex-direction: row;
-  margin:1rem;
-  padding:1rem;
-  border:1rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1rem;
   letter-spacing: 2px;
   list-style: none;
 }
@@ -54,37 +54,18 @@ a {
 a:hover {
   color: #bd7523;
 }
-a.menu{
+a.menu {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   line-height: 1rem;
   padding-right: 2rem;
-  
 }
-.raftingimage {
-  margin: 5px;
-  width: auto;
-  height: 200px;
-  padding: none;
-}
-.riverimage {
-  float: right;
-  width: auto;
-  height: 300px;
-  padding-left: 2rem;
-}
-.waterfallimage {
-  padding-right: 2rem;
-  float: left;
-  width: auto;
-  height: 300px;
-}
+
 p {
   background-color: #072f37;
   color: #c8cbc0;
-  display: flex;
   font-family: "Oswald", sans-serif;
-  padding: 15px;
+  padding: 0.5rem;
 }
 
 h2 {
@@ -98,4 +79,89 @@ h2 {
 section {
   margin: 1em;
   padding: 2em;
+}
+img {
+  width: 100%;
+}
+.banner-box img {
+  width: 100%;
+  height: auto;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 20px;
+}
+.home-headline-1 {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 2;
+}
+.home-paragraph-1 {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
+}
+.home-right-img {
+  grid-column: 4 / span 2;
+  grid-row: 1 / span 2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #999;
+}
+.home-headline-2 {
+  grid-column: 3 / span 3;
+  grid-row: 3 / span 1;
+}
+
+.home-paragraph-2 {
+  grid-column: 4 / span 2;
+  grid-row: 4 / span 1;
+}
+.home-left-img {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #999;
+}
+.home-paragraph-3 {
+  grid-column: 1 / span 5;
+  grid-row: 5 / span 1;
+}
+h2.comerun {
+  text-align: center;
+}
+.banner-box {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+  
+.banner-box img {
+  grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
+  grid-row: 1;
+}
+  
+.action {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgba(240, 240, 240, 0.8);
+  margin: 1em 3em;
+  padding: 1em;
+  text-align: center;
+}
+  
+.action button {
+  line-height: 2em;
+  width: 10em;
+  background-color: #e7c24f;
+  font-size: 1.2em;
+}
+
+
+
+@media screen and (max-width: 550px) {
+  .home-grid {
+    display: block;
+  }
 }
