@@ -1,0 +1,167 @@
+body {
+  background-color: #c8cbc0;
+  font-size: 16px;
+}
+
+header,
+nav,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #072f37;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #bd7523;
+  border: 1px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.heading h1 {
+  font-size: 2rem;
+  margin: 0;
+  border: 1rem;
+}
+.motto {
+  font-style: italic;
+  font-size: 1rem;
+  color: #c8cbc0;
+}
+nav {
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1rem;
+  letter-spacing: 2px;
+  list-style: none;
+}
+.raftinglogo {
+  width: 300px;
+  height: auto;
+}
+a {
+  color: #334e3b;
+  text-decoration: underline;
+  font-weight: bold;
+}
+a:hover {
+  color: #bd7523;
+}
+a.menu {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  padding-right: 2rem;
+}
+
+p {
+  background-color: #072f37;
+  color: #c8cbc0;
+  font-family: "Oswald", sans-serif;
+  padding: 0.5rem;
+}
+
+h2 {
+  color: #bd7523;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.logo {
+  width: 40px;
+  height: auto;
+}
+section {
+  margin: 1em;
+  padding: 2em;
+}
+img {
+  width: 100%;
+}
+.banner-box img {
+  width: 100%;
+  height: auto;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 20px;
+}
+.home-headline-1 {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 2;
+}
+.home-paragraph-1 {
+  grid-column: 2 / span 2;
+  grid-row: 2 / span 1;
+}
+.home-right-img {
+  grid-column: 4 / span 2;
+  grid-row: 1 / span 2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #999;
+}
+.home-headline-2 {
+  grid-column: 3 / span 3;
+  grid-row: 3 / span 1;
+}
+
+.home-paragraph-2 {
+  grid-column: 4 / span 2;
+  grid-row: 4 / span 1;
+}
+.home-left-img {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #999;
+}
+.home-paragraph-3 {
+  grid-column: 1 / span 5;
+  grid-row: 5 / span 1;
+}
+h2.comerun {
+  text-align: center;
+}
+.banner-box {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+  
+.banner-box img {
+  grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
+  grid-row: 1;
+}
+  
+.action {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgba(240, 240, 240, 0.8);
+  margin: 1em 3em;
+  padding: 1em;
+  text-align: center;
+}
+  
+.action button {
+  line-height: 2em;
+  width: 10em;
+  background-color: #e7c24f;
+  font-size: 1.2em;
+}
+
+
+
+@media screen and (max-width: 550px) {
+  .home-grid {
+    display: block;
+  }
+}
