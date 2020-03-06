@@ -56,7 +56,7 @@ a:hover {
 }
 a.menu {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1rem;
   padding-right: 2rem;
 }
@@ -136,12 +136,12 @@ h2.comerun {
   grid-gap: 30px;
   grid-template-columns: 1fr 1fr;
 }
-  
+
 .banner-box img {
   grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
   grid-row: 1;
 }
-  
+
 .action {
   grid-column: 1;
   grid-row: 1;
@@ -150,15 +150,90 @@ h2.comerun {
   padding: 1em;
   text-align: center;
 }
-  
+
 .action button {
   line-height: 2em;
   width: 10em;
   background-color: #e7c24f;
   font-size: 1.2em;
 }
-
-
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-gap: 20px;
+}
+.faq {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 5;
+}
+.faq-headline1 {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.faq-paragraph1 {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+}
+.faq-headline2 {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+.faq-paragraph2 {
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 1;
+}
+.faq-image-top {
+  grid-column: 4 / span 2;
+  grid-row: 3 / span 2;
+  padding-bottom: 20px;
+}
+.faq-image-middle {
+  grid-column: 1 / span 2;
+  grid-row: 4 / span 2;
+}
+.faq-headline3 {
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 1;
+}
+.faq-paragraph3 {
+  grid-column: 4 / span 2;
+  grid-row: 4 / span 1;
+}
+.faq-headline4 {
+  grid-column: 3 / span 1;
+  grid-row: 5 / span 1;
+}
+.faq-paragraph4 {
+  grid-column: 4 / span 2;
+  grid-row: 5 / span 1;
+}
+.faq-headline5 {
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 1;
+}
+.faq-paragraph5 {
+  grid-column: 2 / span 2;
+  grid-row: 6 / span 1;
+}
+.faq-headline6 {
+  grid-column: 1 / span 1;
+  grid-row: 7 / span 1;
+}
+.faq-paragraph6 {
+  grid-column: 2 / span 2;
+  grid-row: 7 / span 2;
+}
+.faq-image-bottom {
+  grid-column: 4 / span 2;
+  grid-row: 6 / span 2;
+  padding-top:125px ;
+}
+.faq-paddles{
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 2;
+  padding-top: 250px;
+}
 
 @media screen and (max-width: 550px) {
   .home-grid {
