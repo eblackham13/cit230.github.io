@@ -14,7 +14,7 @@ footer {
 header {
   background-color: #072f37;
   font-family: "Roboto Condensed", sans-serif;
-  color: #bd7523;
+  color: #9B601D;
   border: 1px;
   padding: 5px;
   display: flex;
@@ -69,7 +69,7 @@ p {
 }
 
 h2 {
-  color: #bd7523;
+  color: #9B601D;
   font-family: "Roboto Condensed", sans-serif;
 }
 .logo {
