@@ -234,9 +234,86 @@ h2.comerun {
   grid-row: 5 / span 2;
   padding-top: 250px;
 }
+.blog-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  grid-gap: 20px; 
+}
+.blog-head1{
+  grid-column: 1/ span 3;
+  grid-row: 1/ span 1;
+}
+.blog-para1{
+  grid-column: 1/ span 3;
+  grid-row: 2/ span 1;
+}
+.blog-head2{
+  grid-column: 1/ span 3;
+  grid-row: 3/ span 1;
+}
+.blog-para2{
+  grid-column: 1/ span 3;
+  grid-row: 4/ span 1;
+}
+.splash{
+  grid-column: 1/ span 1;
+  grid-row: 5/ span 1;
+  height: 200px;
+  width: auto;
+}
+.canyon{
+  grid-column: 2/ span 1;
+  grid-row: 5/ span 1;
+  height: 200px;
+  width: auto;
+}
+.rafting-fun{
+  grid-column: 3/ span 1;
+  grid-row: 5/ span 1;
+  height: 200px;
+  width: auto;
+}
+.blog-head3{
+  grid-column: 1/ span 3;
+  grid-row: 6/ span 1;
+}
+.blog-para3{
+  grid-column: 1/ span 3;
+  grid-row: 7/ span 1;
+}
+.blog-scorpion{
+  grid-column: 1/ span 3;
+  grid-row: 8/ span 1;
+}
+.scorp-img{
+  grid-column: 1/ span 1;
+  grid-row: 9/ span 1;
+  height: 200px;
+  width: auto;
+}
+.big-horn-img{
+  grid-column: 3/ span 1;
+  grid-row: 9/ span 1;
+  height: 200px;
+  width: auto;
+  padding-left: 70px;
+}
+.blog-big-horn{
+  grid-column: 1/ span 3;
+  grid-row: 10/ span 1;
+}
+
+
 
 @media screen and (max-width: 550px) {
   .home-grid {
+    display: block;
+  }
+  .faq-grid{
+    display: block;
+  }
+  .blog-grid{
     display: block;
   }
 }
