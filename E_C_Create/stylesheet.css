@@ -1,0 +1,44 @@
+body {
+    background-color: #CECBC6;
+    font-size: 16px;
+  }
+  
+  header,
+  nav,
+  main,
+  footer {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #F5E7CB;
+    font-family: 'Ubuntu', sans-serif;
+    color: #DE9787;
+    border: 1px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .primary{
+      color:#70A288
+  }
+  .secondary{
+      color: #04395E
+  }
+  .accent1{
+      color: #DE9787
+  }
+  .accent2{
+      color: #F5E7CB;
+  }
+  p.accent2{
+    color: #F5E7CB;
+    background-color: #04395E
+  }
+  .heading-font{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .paragraph-font{
+    font-family: 'Open Sans', sans-serif;
+  }
