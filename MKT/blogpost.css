@@ -1,19 +1,23 @@
 body {
-    background-color: #2D3142;
+    background-color: rgb(171, 201, 221);
   }
 h1{
-    color:#BFC0C0;
+    color:rgb(46, 48, 48);
 }
 p{
-    color:#FE938C;
+    font-weight: bolder;
+    color:rgb(116, 86, 5);
 }
 ul{
     color:#FFFFFF
 }
 a{
     text-decoration: none;
-    color:#FE938C
+    color:rgb(116, 86, 5)
 }
 a:hover{
-    color:#B6B9BA
+    color:#B6B9BA;
+}
+footer{
+    color:black ;
 }
