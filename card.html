@@ -1,29 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Card</title>
     <style>
-    img {
-  max-width: 100%;
-}
-.card {
-  width: 320px;
-  box-shadow: 1px 1px 4px 1px #888;
-  border-radius: 3px;
-  background-color: white;       
-}
+        img {
+            max-width: 100%;
+        }
+
+        .card {
+            width: 320px;
+            box-shadow: 1px 1px 4px 1px #888;
+            border-radius: 3px;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .viewButton {
+            margin: 5px;
+            border-radius: 3px;
+
+        }
+
+        .editButton {
+            margin: 5px;
+            border-radius: 3px;
+
+        }
+
+        span {
+            padding-left: 100px;
+        }
+
+        button {
+            border-color: #888;
+
+        }
     </style>
 </head>
+
 <body>
-    <article class="card"></article>
-    <img scr="sunset.JPG" alt="sunset image">
-    <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <article class="card">
+        <img src="images\trains.jpg" alt="thumbnail image">
+        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a
+            little bit longer.</p>
 </body>
 <footer>
-    <button type="button" class=viewButton>View</button>
-    <button type="button" class=editButton>Edit</button>
+    <button type="button" class="viewButton">View</button>
+    <button type="button" class="editButton">Edit</button>
+    <span>9 min</span>
+    </article>
 </footer>
+
 </html>
