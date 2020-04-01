@@ -1,6 +1,6 @@
 body {
     background-color: #CECBC6;
-    font-size: 16px;
+    font-size: 20px;
   }
   
   header,
@@ -19,6 +19,12 @@ body {
     padding: 5px;
     display: flex;
     align-items: center;
+  }
+ .footer{
+    color:#DE9787;
+  }
+  li{
+    color:#04395E ;
   }
   .primary{
       color: #F5E7CB;
@@ -60,6 +66,10 @@ body {
     text-decoration: underline;
     font-weight: bold;
   }
+  .spreadAwareness{
+    color: #04395E;
+
+  }
   .menu1{
     padding: 1rem;
     font-size: xx-large;
@@ -72,11 +82,19 @@ body {
     padding: 1rem;
     font-size: xx-large;
   }
+  .menu4{
+    padding: 1rem;
+    font-size: xx-large;
+  }
   p{
     color: #04395E;
   }
   h1{
   color:#04395E
+  }
+  h2{
+    color: #DE9787;
+    background-color: #F5E7CB;  
   }
   .logo{
     width: 40px;
