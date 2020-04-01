@@ -1,6 +1,6 @@
 body {
-    background-color: #CECBC6;
-    font-size: 20px;
+    background-color: #F5E7CB;
+    font-size: 18px;
   }
   
   header,
@@ -12,9 +12,9 @@ body {
   }
   
   header {
-    background-color: #F5E7CB;
+    background-color: #DE9787;
     font-family: 'Ubuntu', sans-serif;
-    color: #DE9787;
+    color: #04395E;
     border: 1px;
     padding: 5px;
     display: flex;
