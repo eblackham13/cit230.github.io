@@ -62,12 +62,15 @@ body {
   }
   .menu1{
     padding: 1rem;
+    font-size: xx-large;
   }  
   .menu2{
     padding: 1rem;
+    font-size: xx-large;
   }
   .menu3{
     padding: 1rem;
+    font-size: xx-large;
   }
   p{
     color: #04395E;
@@ -86,3 +89,4 @@ body {
   .heading{
     display: flex;
   }
+ 
