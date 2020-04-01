@@ -21,24 +21,68 @@ body {
     align-items: center;
   }
   .primary{
-      color:#70A288
+      color: #F5E7CB;
+      
   }
   .secondary{
-      color: #04395E
+      color: #04395E;
   }
   .accent1{
-      color: #DE9787
+      color: #DE9787;
   }
   .accent2{
-      color: #F5E7CB;
+      color:#70A288;
   }
   p.accent2{
     color: #F5E7CB;
-    background-color: #04395E
+    background-color: #04395E;
   }
   .heading-font{
     font-family: 'Ubuntu', sans-serif;
   }
   .paragraph-font{
     font-family: 'Open Sans', sans-serif;
+  }
+  nav {
+    text-align: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1rem;
+    letter-spacing: 2px;
+    list-style: none;
+  }
+  a {
+    color: #70A288;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .menu1{
+    padding: 1rem;
+  }  
+  .menu2{
+    padding: 1rem;
+  }
+  .menu3{
+    padding: 1rem;
+  }
+  p{
+    color: #04395E;
+  }
+  h1{
+  color:#04395E
+  }
+  .logo{
+    width: 40px;
+    height: auto;
+  }
+  .banner-box img {
+    width: auto;
+    height: 100%;
+  }
+  .heading{
+    display: flex;
   }
