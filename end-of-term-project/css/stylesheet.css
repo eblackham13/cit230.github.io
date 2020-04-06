@@ -101,7 +101,19 @@ body {
     height: auto;
   }
   .heading{
-    display: flex;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    }  
+  .motto{
+    background-color: lightgray;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px ;
+    opacity: 0.6;
+    grid-column: 1 / 4;
+    grid-row: auto;
+    align-items: center ;
   }
   .button{
     background-color: #04395E; 
@@ -125,6 +137,10 @@ body {
     padding: 9px;
     transform: rotate(-90deg);
   }
+  .home-grid{
+    display: grid;
+  }
+  
 
   @media screen and (max-width: 550px) {
     .home-grid {
