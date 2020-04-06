@@ -130,11 +130,18 @@ h3 {
 .button:hover {
   background-color: #70a288;
 }
-img.scar {
+img.hospital_ER {
+  margin: 10px;
   padding: 9px;
   transform: rotate(-90deg);
 }
-img.pole {
+img.hospital_fun {
+  margin: 10px;
+  padding: 9px;
+  transform: rotate(-90deg);
+}
+img.hospital_room {
+  margin: 10px;
   padding: 9px;
   transform: rotate(-90deg);
 }
@@ -167,17 +174,8 @@ img.pole {
   grid-row: 5 / span 1;
   margin: 1px;
 }
-.scar {
-  align-items: center;
-  grid-column: 1 / span 2;
-  grid-row: 6 / span 2;
-  margin: 1px;
-}
-.pole{
-  align-items: center;
-  grid-column: 2 / span 2;
-  grid-row: 6 / span 2;
-  margin: 1px;
+.blog-img-grid{
+  display: grid;
 }
 
 @media screen and (max-width: 550px) {
