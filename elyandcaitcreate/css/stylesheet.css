@@ -16,6 +16,10 @@ header {
   border: 1px;
   padding: 5px;
 }
+p.footer{
+  color: #3E594B;
+}
+
 .heading h1 {
   max-width: 900px;
   margin: 0px;
@@ -50,7 +54,7 @@ li {
   color: #C37B6B;
 }
 .accent2 {
-  color: #5C8570;
+  color: #3E594B;
 }
 p.accent2 {
   color: #FBF6EC;
@@ -75,7 +79,7 @@ nav ul {
   list-style: none;
 }
 a {
-  color: #5C8570;
+  color: #3E594B;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -129,7 +133,7 @@ h3 {
   width: 200px;
 }
 .button:hover {
-  background-color: #5C8570;
+  background-color: #3E594B;
 }
 
 .home-grid {
@@ -273,14 +277,14 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #5C8570;
+  background-color: #3E594B;
 }
 
 div.form {
   border-radius: 5px;
   background-color: #FBF6EC;
   padding: 20px;
-  color: #5C8570;
+  color: #3E594B;
   font-weight: bold;
 }
 .awareness-grid{
