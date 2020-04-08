@@ -1,5 +1,5 @@
 body {
-  background-color: #F9F1E2;
+  background-color: #FBF6EC;
   font-size: 18px;
 }
 header,
@@ -40,7 +40,7 @@ li {
   color: #04395e;
 }
 .primary {
-  color: #F9F1E2;
+  color: #FBF6EC;
 }
 .secondary {
   color: #04395e;
@@ -52,7 +52,7 @@ li {
   color: #5C8570;
 }
 p.accent2 {
-  color: #F9F1E2;
+  color: #FBF6EC;
   background-color: #04395e;
 }
 .heading-font {
@@ -105,11 +105,11 @@ h1 {
 }
 h2 {
   color: #C37B6B;
-  background-color: #F9F1E2;
+  background-color: #FBF6EC;
 }
 h3 {
   color: #C37B6B;
-  background-color: #F9F1E2;
+  background-color: #FBF6EC;
 }
 .logo {
   width: 40px;
@@ -119,7 +119,7 @@ h3 {
 .button {
   background-color: #04395e;
   border: none;
-  color: #F9F1E2;
+  color: #FBF6EC;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -277,7 +277,7 @@ input[type=submit]:hover {
 
 div.form {
   border-radius: 5px;
-  background-color: #F9F1E2;
+  background-color: #FBF6EC;
   padding: 20px;
   color: #5C8570;
   font-weight: bold;
