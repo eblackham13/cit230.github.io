@@ -1,5 +1,5 @@
 body {
-  background-color: #F8EFDD;
+  background-color: #F9F1E2;
   font-size: 18px;
 }
 header,
@@ -10,7 +10,7 @@ footer {
   margin: 0 auto;
 }
 header {
-  background-color: #de9787;
+  background-color: #C37B6B;
   font-family: "Ubuntu", sans-serif;
   color: #04395e;
   border: 1px;
@@ -34,25 +34,25 @@ header {
 }
 
 .footer {
-  color: #de9787;
+  color: #C37B6B;
 }
 li {
   color: #04395e;
 }
 .primary {
-  color: #F8EFDD;
+  color: #F9F1E2;
 }
 .secondary {
   color: #04395e;
 }
 .accent1 {
-  color: #de9787;
+  color: #C37B6B;
 }
 .accent2 {
-  color: #70a288;
+  color: #5C8570;
 }
 p.accent2 {
-  color: #F8EFDD;
+  color: #F9F1E2;
   background-color: #04395e;
 }
 .heading-font {
@@ -74,7 +74,7 @@ nav ul {
   list-style: none;
 }
 a {
-  color: #70a288;
+  color: #5C8570;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -104,12 +104,12 @@ h1 {
   color: #04395e;
 }
 h2 {
-  color: #de9787;
-  background-color: #F8EFDD;
+  color: #C37B6B;
+  background-color: #F9F1E2;
 }
 h3 {
-  color: #de9787;
-  background-color: #F8EFDD;
+  color: #C37B6B;
+  background-color: #F9F1E2;
 }
 .logo {
   width: 40px;
@@ -119,7 +119,7 @@ h3 {
 .button {
   background-color: #04395e;
   border: none;
-  color: #F8EFDD;
+  color: #F9F1E2;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -128,7 +128,7 @@ h3 {
   width: 200px;
 }
 .button:hover {
-  background-color: #70a288;
+  background-color: #5C8570;
 }
 
 .home-grid {
@@ -272,14 +272,14 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #70a288;
+  background-color: #5C8570;
 }
 
 div.form {
   border-radius: 5px;
-  background-color: #F8EFDD;
+  background-color: #F9F1E2;
   padding: 20px;
-  color: #70a288;
+  color: #5C8570;
   font-weight: bold;
 }
 .awareness-grid{
