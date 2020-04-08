@@ -303,10 +303,13 @@ img.rainn{
   .home-grid {
     display: block;
   }
-  .faq-grid {
+  .shop-grid {
     display: block;
   }
   .blog-grid {
+    display: block;
+  }
+  .awareness-grid {
     display: block;
   }
 }
